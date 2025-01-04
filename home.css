@@ -1,3 +1,49 @@
 p{
    color: white;
 }
+.container {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   /* Two equal rows */
+   grid-template-columns: 70% 30%;
+   /* 70:30 ratio for top row */
+   height: 100vh;
+   /* Full viewport height */
+   width: 100vw;
+   /* Full viewport width */
+}
+
+
+
+.top-right {
+   grid-column: 2 / 3;
+   /* Second column */
+   grid-row: 1 / 2;
+   /* First row */
+   background-color: whitesmoke;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.left {
+   grid-column: 1 / 2;
+   /* First column */
+   grid-row: 1/ 3;
+   /* Second row */
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bottom-right {
+   grid-column: 2 / 3;
+   /* Second column */
+   grid-row: 2 / 3;
+   /* Second row */
+   background-color: grey;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
