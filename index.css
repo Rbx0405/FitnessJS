@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
+    background-color: grey;
     color: white;
 }
 
@@ -81,8 +81,8 @@ nav ul {
 
 nav a:hover,
 nav a.active {
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: grey;
+    border-bottom: 3px solid grey;
 }
 
 
@@ -162,7 +162,7 @@ nav a.active {
     .menu {
         position: fixed;
         top: 0;
-        background-color: brown;
+        background-color: black;
 
         right: -75%;
         height: 110vh;
@@ -296,9 +296,9 @@ span {
 .btn:hover {
     transform: scale(1.03);
     /* Fixed transform scale */
-    background-color: #b74b4b;
+    background-color: grey;
     color: black;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px grey;
 }
 
 .typing-text {
@@ -313,7 +313,7 @@ span {
 
 .typing-text span::before {
     content: "software Developer";
-    color: #b74b4b;
+    color: grey;
     animation: words 20s infinite;
 }
 
@@ -336,35 +336,7 @@ span {
 
 @keyframes cursor {
     to {
-        border-left: 3px solid #b74b4b;
-    }
-}
-
-@keyframes words {
-
-    0%,
-    20% {
-        content: "Web Developer";
-    }
-
-    21%,
-    40% {
-        content: "Developer";
-    }
-
-    41%,
-    60% {
-        content: "Hello World!";
-    }
-
-    61%,
-    80% {
-        content: "You Tripping!";
-    }
-
-    81%,
-    100% {
-        content: "You need Sleep!";
+        border-left: 3px solid grey;
     }
 }
 
