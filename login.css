@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('assets/frmf74w1t8sb1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Auth Container */
+.auth-container {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #333333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Form Elements */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: 14px;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: black;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+p {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}

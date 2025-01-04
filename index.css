@@ -225,7 +225,7 @@ section {
 }
 
 span {
-    color: #b74b4b;
+    color: #333333;
 }
 
 .home-content h3 {
@@ -246,7 +246,7 @@ span {
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px #b74b4b;
+    box-shadow: 0 0 25px #333333;
     /* Fixed box-shadow syntax */
     cursor: pointer;
     transition: 0.2s linear;
@@ -296,9 +296,9 @@ span {
 .btn:hover {
     transform: scale(1.03);
     /* Fixed transform scale */
-    background-color: grey;
+    background-color: #333333;
     color: black;
-    box-shadow: 0 0 25px grey;
+    box-shadow: 0 0 25px #333333;
 }
 
 .typing-text {
@@ -313,7 +313,7 @@ span {
 
 .typing-text span::before {
     content: "software Developer";
-    color: grey;
+    color: #333333;
     animation: words 20s infinite;
 }
 
@@ -336,7 +336,7 @@ span {
 
 @keyframes cursor {
     to {
-        border-left: 3px solid grey;
+        border-left: 3px solid #333333;
     }
 }
 
