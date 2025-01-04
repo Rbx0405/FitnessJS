@@ -1,6 +1,7 @@
 p{
    color: white;
 }
+
 .container {
    display: grid;
    grid-template-rows: 1fr 1fr;
@@ -14,8 +15,9 @@ p{
 }
 
 
-
+/*the divisons of the home page*/
 .top-right {
+   color: #333333;
    grid-column: 2 / 3;
    /* Second column */
    grid-row: 1 / 2;
@@ -24,6 +26,7 @@ p{
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 50px 50px 50px 50px;
 }
 
 .left {
@@ -32,9 +35,18 @@ p{
    grid-row: 1/ 3;
    /* Second row */
    background-color: black;
+   background-image: url('assets/eb4cefe0c24c3e3010394ae4bfd3c9b8.jpg');
+      /* Path to your image */
+      background-size: cover;
+      /* Ensures the image covers the entire division */
+      background-position: center;
+      /* Centers the image */
+      background-repeat: no-repeat;
+      /* Prevents repeating the image */
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 50px 50px 50px 50px;
 }
 
 .bottom-right {
@@ -42,8 +54,9 @@ p{
    /* Second column */
    grid-row: 2 / 3;
    /* Second row */
-   background-color: grey;
+   background-color: #333333;
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 50px 50px 50px 50px;
 }
