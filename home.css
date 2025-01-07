@@ -22,7 +22,8 @@ p{
    /* Second column */
    grid-row: 1 / 2;
    /* First row */
-   background-color: whitesmoke;
+   background-color: antiquewhite;
+   align-items: center;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -55,8 +56,11 @@ p{
    grid-row: 2 / 3;
    /* Second row */
    background-color: #333333;
+   background-image: url('assets/a838f5400ca2d8bad30f4e1f6776c130.jpg');
+   background-size: cover;
    display: flex;
    align-items: center;
    justify-content: center;
    border-radius: 50px 50px 50px 50px;
+   color: whitesmoke;
 }

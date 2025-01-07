@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-image:url('assets/frmf74w1t8sb1.png');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
