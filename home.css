@@ -14,7 +14,6 @@ p{
    /* Full viewport width */
 }
 
-
 /*the divisons of the home page*/
 .top-right {
    color: #333333;
@@ -28,6 +27,12 @@ p{
    align-items: center;
    justify-content: center;
    border-radius: 50px 50px 50px 50px;
+   transition: ease-in-out 0.2s;
+}
+.top-right:hover{
+   transform: scale(1.1);
+   
+
 }
 .left {
    grid-column: 1 / 2;
@@ -47,6 +52,10 @@ p{
    align-items: center;
    justify-content: center;
    border-radius: 50px 50px 50px 50px;
+   transition: ease-in-out 0.2s;
+}
+.left:hover{
+   transform: scale(1.1);
 }
 
 .bottom-right {
@@ -62,4 +71,8 @@ p{
    justify-content: center;
    border-radius: 50px 50px 50px 50px;
    color: whitesmoke;
+   transition: ease-in-out 0.2s;
+}
+.bottom-right:hover{
+   transform: scale(1.1);
 }

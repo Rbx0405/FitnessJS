@@ -32,12 +32,19 @@ body {
         flex-wrap: nowrap;
     
 }
+/*.section-main:hover{
+    transform: scale(1.1);
+}*/
 /*about page mid section part*/
 .left-section {
     flex: 1;
     /* Equal width for left section */
     background-color: #000000;
     padding: 20px;
+    transition: ease-in-out 0.2s;
+}
+.left-section:hover {
+    transform: scale(1.1);
 }
 
 /* Right Section */
@@ -47,6 +54,10 @@ body {
     background-color: #e0e0e0;
     padding: 20px;
     color: #000000;
+    transition: ease-in-out 0.2s;
+}
+.right-section:hover {
+    transform: scale(1.1);
 }
 /*bottom */
 .section-aside {
