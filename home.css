@@ -29,7 +29,6 @@ p{
    justify-content: center;
    border-radius: 50px 50px 50px 50px;
 }
-
 .left {
    grid-column: 1 / 2;
    /* First column */
